@@ -23,7 +23,9 @@ dependencies:
   - pyreadr=0.4.7
   - plotnine=0.10.1
   - vega_datasets=0.9.0
-  - h5py=3.7.0
+  - h5py=3.7.0  
   - pip:
     - rdatasets==0.1.0
     - wbdata==0.3.0
+    - gapminder==0.1
+    - squarify==0.4.3
