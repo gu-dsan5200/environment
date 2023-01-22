@@ -293,6 +293,19 @@
       "Hash": "d92652e77f80ccc099e2a04480428725",
       "Requirements": []
     },
+    "UpSetR": {
+      "Package": "UpSetR",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f6ef89503aaff474873f8bc1823894e1",
+      "Requirements": [
+        "ggplot2",
+        "gridExtra",
+        "plyr",
+        "scales"
+      ]
+    },
     "V8": {
       "Package": "V8",
       "Version": "4.2.2",
@@ -2805,6 +2818,28 @@
       "Hash": "7a7541cc284cb2ba3ba7eae645892af5",
       "Requirements": []
     },
+    "naniar": {
+      "Package": "naniar",
+      "Version": "0.6.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4fffc0d02071a6150c1016fb8766224c",
+      "Requirements": [
+        "UpSetR",
+        "dplyr",
+        "forcats",
+        "ggplot2",
+        "glue",
+        "magrittr",
+        "norm",
+        "purrr",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "viridis",
+        "visdat"
+      ]
+    },
     "ndtv": {
       "Package": "ndtv",
       "Version": "0.13.3",
@@ -2883,6 +2918,14 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "170da2130d5332bea7d6ede01875ba1d",
+      "Requirements": []
+    },
+    "norm": {
+      "Package": "norm",
+      "Version": "1.0-10.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7b5244ffdba7429e0e76961f0aa8f199",
       "Requirements": []
     },
     "numDeriv": {
@@ -4762,6 +4805,23 @@
         "htmlwidgets",
         "jsonlite",
         "magrittr"
+      ]
+    },
+    "visdat": {
+      "Package": "visdat",
+      "Version": "0.5.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f62b960320b18fdffb2f0f76bb65dbaf",
+      "Requirements": [
+        "dplyr",
+        "ggplot2",
+        "glue",
+        "magrittr",
+        "purrr",
+        "readr",
+        "tibble",
+        "tidyr"
       ]
     },
     "vroom": {
