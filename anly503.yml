@@ -33,3 +33,5 @@ dependencies:
     - wbdata==0.3.0
     - gapminder==0.1
     - squarify==0.4.3
+    - streamlit==1.19.0
+    - dash==2.8.1
