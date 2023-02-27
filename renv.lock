@@ -1410,6 +1410,24 @@
       "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
       "Requirements": []
     },
+    "flexdashboard": {
+      "Package": "flexdashboard",
+      "Version": "0.6.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "66aa31fb4b18c053cd20753523073742",
+      "Requirements": [
+        "bslib",
+        "htmltools",
+        "htmlwidgets",
+        "jsonlite",
+        "knitr",
+        "rmarkdown",
+        "sass",
+        "scales",
+        "shiny"
+      ]
+    },
     "flipbookr": {
       "Package": "flipbookr",
       "Version": "0.1.0",
