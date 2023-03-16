@@ -480,6 +480,21 @@
         "timetk"
       ]
     },
+    "altair": {
+      "Package": "altair",
+      "Version": "4.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "53d3d82d3c1d1696cc2ddcf88b31ca55",
+      "Requirements": [
+        "assertthat",
+        "htmlwidgets",
+        "magrittr",
+        "repr",
+        "reticulate",
+        "vegawidget"
+      ]
+    },
     "animation": {
       "Package": "animation",
       "Version": "2.7",
@@ -1447,6 +1462,22 @@
         "tidyr"
       ]
     },
+    "fontBitstreamVera": {
+      "Package": "fontBitstreamVera",
+      "Version": "0.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f6068021eff4aba735a9b2353516636c",
+      "Requirements": []
+    },
+    "fontLiberation": {
+      "Package": "fontLiberation",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "f918c5e723f86f409912104d5b7a71d6",
+      "Requirements": []
+    },
     "fontawesome": {
       "Package": "fontawesome",
       "Version": "0.4.0",
@@ -1456,6 +1487,17 @@
       "Requirements": [
         "htmltools",
         "rlang"
+      ]
+    },
+    "fontquiver": {
+      "Package": "fontquiver",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fc0f4226379e451057d55419fd31761e",
+      "Requirements": [
+        "fontBitstreamVera",
+        "fontLiberation"
       ]
     },
     "forcats": {
@@ -3153,6 +3195,19 @@
         "statnet.common"
       ]
     },
+    "networkLite": {
+      "Package": "networkLite",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "859c839d5279aa6249724fa3f211ea2f",
+      "Requirements": [
+        "dplyr",
+        "network",
+        "statnet.common",
+        "tibble"
+      ]
+    },
     "nlme": {
       "Package": "nlme",
       "Version": "3.1-161",
@@ -3242,6 +3297,14 @@
         "rlang"
       ]
     },
+    "palmerpenguins": {
+      "Package": "palmerpenguins",
+      "Version": "0.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6c6861efbc13c1d543749e9c7be4a592",
+      "Requirements": []
+    },
     "parallelly": {
       "Package": "parallelly",
       "Version": "1.34.0",
@@ -3274,6 +3337,25 @@
         "tidyr",
         "vctrs",
         "withr"
+      ]
+    },
+    "parttree": {
+      "Package": "parttree",
+      "Version": "0.0.1.9004",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "grantmcdermott",
+      "RemoteRepo": "parttree",
+      "RemoteRef": "main",
+      "RemoteSha": "d2b60ac06bc760751685a9e92ff590f731f6a0ed",
+      "Hash": "0490d6fa62f6618f63f4708263cdcbcb",
+      "Requirements": [
+        "data.table",
+        "ggplot2",
+        "partykit",
+        "rlang",
+        "rpart"
       ]
     },
     "partykit": {
@@ -3814,6 +3896,19 @@
       "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
       "Requirements": []
     },
+    "repr": {
+      "Package": "repr",
+      "Version": "1.1.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fab761ee8f3554a04afef40ac53689f4",
+      "Requirements": [
+        "base64enc",
+        "htmltools",
+        "jsonlite",
+        "pillar"
+      ]
+    },
     "reprex": {
       "Package": "reprex",
       "Version": "2.0.2",
@@ -4209,6 +4304,28 @@
         "xtable"
       ]
     },
+    "skimr": {
+      "Package": "skimr",
+      "Version": "2.1.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "8f138ff2c8fbea9e0a523f6c399c0386",
+      "Requirements": [
+        "cli",
+        "dplyr",
+        "knitr",
+        "magrittr",
+        "pillar",
+        "purrr",
+        "repr",
+        "rlang",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "vctrs"
+      ]
+    },
     "slider": {
       "Package": "slider",
       "Version": "0.3.0",
@@ -4504,6 +4621,21 @@
       "Requirements": [
         "cpp11",
         "systemfonts"
+      ]
+    },
+    "thematic": {
+      "Package": "thematic",
+      "Version": "0.1.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "77ad63ad98b3434a01284dbf1125e404",
+      "Requirements": [
+        "farver",
+        "ggplot2",
+        "rappdirs",
+        "rlang",
+        "rstudioapi",
+        "scales"
       ]
     },
     "threejs": {
@@ -5101,6 +5233,23 @@
         "rlang"
       ]
     },
+    "vegawidget": {
+      "Package": "vegawidget",
+      "Version": "0.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2a564f18e7ed58818e58b5349bbef32c",
+      "Requirements": [
+        "assertthat",
+        "digest",
+        "glue",
+        "htmltools",
+        "htmlwidgets",
+        "jsonlite",
+        "magrittr",
+        "rlang"
+      ]
+    },
     "viridis": {
       "Package": "viridis",
       "Version": "0.6.2",
@@ -5172,6 +5321,20 @@
         "tzdb",
         "vctrs",
         "withr"
+      ]
+    },
+    "waffle": {
+      "Package": "waffle",
+      "Version": "0.7.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a4660b9502f987f6613bbb3ede52b0f6",
+      "Requirements": [
+        "RColorBrewer",
+        "extrafont",
+        "ggplot2",
+        "gridExtra",
+        "gtable"
       ]
     },
     "waldo": {
