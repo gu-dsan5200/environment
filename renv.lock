@@ -1217,6 +1217,16 @@
       "Hash": "8b708f296afd9ae69f450f9640be8990",
       "Requirements": []
     },
+    "directlabels": {
+      "Package": "directlabels",
+      "Version": "2021.1.13",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "dd27110dd3d729cca5fa4b2bf52a2040",
+      "Requirements": [
+        "quadprog"
+      ]
+    },
     "distill": {
       "Package": "distill",
       "Version": "1.5",
