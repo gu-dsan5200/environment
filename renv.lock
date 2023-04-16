@@ -1245,6 +1245,24 @@
         "yaml"
       ]
     },
+    "distributional": {
+      "Package": "distributional",
+      "Version": "0.3.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0a94c3c917918a1c90f4609171ff41b6",
+      "Requirements": [
+        "digest",
+        "farver",
+        "generics",
+        "ggplot2",
+        "lifecycle",
+        "numDeriv",
+        "rlang",
+        "scales",
+        "vctrs"
+      ]
+    },
     "doParallel": {
       "Package": "doParallel",
       "Version": "1.0.17",
@@ -1413,6 +1431,28 @@
       "Hash": "a861555ddec7451c653b40e713166c6f",
       "Requirements": []
     },
+    "fabletools": {
+      "Package": "fabletools",
+      "Version": "0.3.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "192130a87f00fecf175f752ec72c1db7",
+      "Requirements": [
+        "R6",
+        "distributional",
+        "dplyr",
+        "generics",
+        "ggplot2",
+        "lifecycle",
+        "progressr",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "tsibble",
+        "vctrs"
+      ]
+    },
     "fansi": {
       "Package": "fansi",
       "Version": "1.0.3",
@@ -1436,6 +1476,28 @@
       "Repository": "CRAN",
       "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
       "Requirements": []
+    },
+    "feasts": {
+      "Package": "feasts",
+      "Version": "0.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4e2130fecd2802de19c69d129abab1db",
+      "Requirements": [
+        "dplyr",
+        "fabletools",
+        "ggplot2",
+        "gtable",
+        "lifecycle",
+        "lubridate",
+        "rlang",
+        "scales",
+        "slider",
+        "tibble",
+        "tidyr",
+        "tsibble",
+        "vctrs"
+      ]
     },
     "flexdashboard": {
       "Package": "flexdashboard",
