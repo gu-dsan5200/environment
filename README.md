@@ -6,7 +6,6 @@ We have also created curated R and Python environments which have many of the pa
 
 Since every student has a different machine, it is best to use a common environment that we know works.
 
-
 ## Learn to love your terminal/shell
 
 There is a large amount of work in Data Science that happens at the command line. Regardless of operating system, you have a terminal that allows you to execute commands on your machine via written commands.
@@ -35,13 +34,15 @@ Learn to love your terminal/shell. You will be doing a lot here, including your 
 - Install [miniforge](https://conda-forge.org/miniforge/) Python distribution (select the one called **Miniforge3**.)
 - Use `brew` to install several items, including many popular tools/applications. Some of these are required for R or Python pacakges to be installed. Brew may install additional things (dependencies) and may request your username and password (and it's OK to provide):
 	- [git](https://git-scm.com/): `brew install git`
-	- [r](https://cran.r-project.org/): `brew install homebrew/cask/r` (Although you can run `brew install r` it is better to install the "cask". The "cask" is the pre-built application, while the `r` version needs compilation. If you install the plain `r` version you will need to compile most libraries.)
+	- [R](https://cran.r-project.org/): `brew install homebrew/cask/r` (Although you can run `brew install r` it is better to install the "cask". The "cask" is the pre-built application, while the `r` version needs compilation. If you install the plain `r` version you will need to compile most libraries.)
 	- [RStudio](https://posit.co/products/open-source/rstudio/): `brew install rstudio`
 	- [VSCode](https://code.visualstudio.com/): `brew install visual-studio-code`
 	- [Quarto](https://quarto.org/): `brew install quarto`
 	- [iTerm2](https://iterm2.com/): `brew install iterm2`
-	- [GDAL](https://gdal.org/): `brew install gdal` (This is needed for many of the geospatial libraries)
+	- [GDAL](https://gdal.org/): `brew install gdal` (This is a pre-requisite for many of the geospatial libraries for R, on MacOS/Linux)
+	- [PROJ](https://proj.org/en/9.3/): `brew install proj` (This is a pre-requisite needed for many of the geospatial libraries in R, on MacOS/Linux)
 	- [Wget](https://www.gnu.org/software/wget/): `brew install wget`
+
 
 
 - Download the course's Python environment file
@@ -70,7 +71,7 @@ Note: you need to start Powershell with elevated privileges any time you want to
 - Close and reopen Powershell with elevated privileges
 - Use `choco` to install several applications:
 	- [git](https://git-scm.com/): `choco install git`
-	- [r](https://cran.r-project.org/): `choco install r` 
+	- [R](https://cran.r-project.org/): `choco install r` 
 	- [RStudio](https://posit.co/products/open-source/rstudio/): `choco install r.studio`
 	- [VSCode](https://code.visualstudio.com/): `choco install vscode`
 	- [Quarto](https://quarto.org/): `choco install quarto`
